@@ -13,7 +13,6 @@ import com.everis.bootcamp.priceservice.service.PriceService;
 
 @RestController("api")
 public class PriceController {
-	@Value("${service.price}")
 	private PriceService priceService;
 
 	public PriceController(PriceService priceService) {
